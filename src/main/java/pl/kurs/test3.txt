@@ -1,0 +1,22 @@
+Zadanie 1:
+W katalogu workspace znajdz najwiekszy plik java (czyli taki ktory zajmuje najwiecej miejsca na dysku) - pamietaj,
+ze pliki java moga byc w folderach, pod folderach, pod pod folderach itp. a ty podajesz tylko top,
+np: c:/uzytkwonik/projekty-java/<i tu i wszedzie ponizej szukamy plikow java>
+
+Zadanie 2:
+Zobaczymy kiedy pracujesz, zrob mi ladne zestawienie NAZWA DNIA TYGODNIA -> ILOSC stworzonych plikow java tego dnia
+tygodnia (pliki z tego samego katalogu co w zad 1) i wklej wynik w komentarz zebym widzial w jakie dni tygodnia
+najwiecej pracujesz ;)
+
+Zadanie 3:
+Napisz metode int getFibbonacciIndex(int number), ktora zwraca index liczby number w ciagu fibbonacciego, lub -1 jesli
+nie ma, tzn: number = 8 to powinno index zwrocic 5, a jesli number = 10, to index = -1, bo 10tka nie znajduje sie
+w ciagu fibbonacciego
+
+Zadanie 4:
+Stworz klase MinMax<T extends Comparable> ktora jako pola klasy pobiera instancje T max oraz T min
+Nastepnie stworz klase MinMaxService, ktora bedzie miala statyczna metode MinMax<cos tutaj>
+getMinAndMax(List<cos tutaj> elements). Zadaniem tej metody jest zwracanie mina i maxa z listy w tym jednym obiekcie
+wg naturalnego porządku jaki gwarantuje komparator, klasa MinMax powinna byc generyczna i metody getMin oraz getMax
+powinny zwracac instancje tego co bedzie na liscie elements, czyli jak przekazemy liste stringow to getMax ma zwracac
+String, getMin tez stringa a jak damy liste osob to ma getMax zwraca osobe, itp itd.
